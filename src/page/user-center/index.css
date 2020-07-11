@@ -1,0 +1,17 @@
+/*
+* @Author: Huracan
+* @Date:   2020-02-24 14:54:43
+* @Last Modified by:   Huracan
+* @Last Modified time: 2020-02-24 15:53:05
+*/
+.form-line{
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.form-line .label{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}

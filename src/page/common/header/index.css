@@ -1,0 +1,45 @@
+/*
+* @Author: Huracan
+* @Date:   2020-02-21 17:05:23
+* @Last Modified by:   Huracan
+* @Last Modified time: 2020-02-21 17:23:54
+*/
+.header .logo{
+    position: absolute;
+    left: 60px;
+    top: 34px;
+    display: block;
+    font-size: 50px;
+    color: #AF0219;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header .search-con{
+    padding: 50px 0 30px 300px;
+}
+.header .search-con .search-input{
+    width: 750px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #AF0219;
+    outline: none;
+}
+.header .search-con .search-btn{
+    position: absolute;
+    height: 44px;
+    width: 80px;
+}
+
+/* 面包屑导航 */
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #AF0219;
+}

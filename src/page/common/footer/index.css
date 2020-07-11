@@ -1,0 +1,23 @@
+/*
+* @Author: Huracan
+* @Date:   2020-02-21 16:38:30
+* @Last Modified by:   Huracan
+* @Last Modified time: 2020-02-21 16:57:59
+*/
+.footer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.footer .links{
+    text-align: center;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+    color: #999;
+}
+.footer .copyright{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}

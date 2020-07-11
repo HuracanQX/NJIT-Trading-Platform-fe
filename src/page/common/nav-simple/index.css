@@ -1,0 +1,18 @@
+/*
+* @Author: Huracan
+* @Date:   2020-02-21 13:33:47
+* @Last Modified by:   Huracan
+* @Last Modified time: 2020-02-24 15:30:41
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}

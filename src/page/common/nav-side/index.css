@@ -1,0 +1,27 @@
+/*
+* @Author: Huracan
+* @Date:   2020-02-23 10:40:46
+* @Last Modified by:   Huracan
+* @Last Modified time: 2020-02-23 11:41:57
+*/
+/*导航主体*/
+.nav-side{
+    float: left;
+    width: 200px;
+    min-height: 100px;
+}
+.nav-side .nav-item{
+    line-height: 30px;
+    font-size: 18px;
+}
+.nav-side .nav-item .link{
+    color: #888;
+}
+.nav-side .nav-item.active .link{
+    color: #AF0219;
+}
+/*右侧内容区*/
+.content.with-nav{
+    float: left;
+    width: 1400px;
+}
