@@ -46,7 +46,7 @@ var config = {
         'user-pass-reset'   : ['./src/page/user-pass-reset/index.js'],
         'user-pass-update'  : ['./src/page/user-pass-update/index.js'],
         'about'             : ['./src/page/about/index.js'],
-        'result'            : ['./src/page/result/index.js']
+        'result'            : ['./src/page/result/index.js'],
         'upload'            : ['./src/page/upload/index.js']
     },
     output:{
