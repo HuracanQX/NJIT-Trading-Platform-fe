@@ -1,5 +1,11 @@
+/*
+* @Author: Huracan
+* @Date:   2020-09-20 08:45:05
+* @Last Modified by:   Huracan
+* @Last Modified time: 2020-09-20 08:55:24
+*/
 'use strict';
-require('./index.css');
+
 require('page/common/nav/index.js');
 require('page/common/header/index.js');
 var navSide         = require('page/common/nav-side/index.js');
@@ -12,7 +18,7 @@ var page = {
     onLoad : function(){
         // 初始化左侧菜单
         navSide.init({
-            name: 'user-center'
+            name: 'upload'
         });
     }
 };
