@@ -104,7 +104,7 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-reset','找回密码')),
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-update','修改密码')),
         new HtmlWebpackPlugin(getHtmlConfig('result','操作结果')),
-        new HtmlWebpackPlugin(getHtmlConfig('about','关于我们'))
+        new HtmlWebpackPlugin(getHtmlConfig('about','关于我们')),
         new HtmlWebpackPlugin(getHtmlConfig('upload','物品上传'))
     ]
 };
