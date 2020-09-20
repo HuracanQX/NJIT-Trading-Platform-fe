@@ -45,8 +45,9 @@ var config = {
         'user-register'     : ['./src/page/user-register/index.js'],
         'user-pass-reset'   : ['./src/page/user-pass-reset/index.js'],
         'user-pass-update'  : ['./src/page/user-pass-update/index.js'],
-        'about'            : ['./src/page/about/index.js'],
-        'result'            : ['./src/page/result/index.js']
+        'about'             : ['./src/page/about/index.js'],
+        'result'            : ['./src/page/result/index.js'],
+        'upload'            : ['./src/page/upload/index.js']
     },
     output:{
         path            :  __dirname + '/dist/',
@@ -104,6 +105,7 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('user-pass-update','修改密码')),
         new HtmlWebpackPlugin(getHtmlConfig('result','操作结果')),
         new HtmlWebpackPlugin(getHtmlConfig('about','关于我们'))
+        new HtmlWebpackPlugin(getHtmlConfig('upload','物品上传'))
     ]
 };
 
